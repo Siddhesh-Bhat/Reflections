@@ -12,12 +12,16 @@ What value do you think it offers?
 
 
 4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+-> Branching is useful in situations where instead of sequential implementation you may have to follow parallel implementation or you have to try out something which is not exactly dependent on current branch like when one developer is working on some experimental feature and the others are working on the current branch. It will also be useful when developing the software in different languages or modes which helps in better understanding of why those changes were made.
 
 
 5. How do the diagrams help you visualize the branch structure?
+-> When we create branches, we dont follow a linear path and hence it may be difficult to keep track of various changes made. However with tree diagrams we can easily recognize where the branches were created and which commit is the ancestor of which commit.
 
 
 6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+-> When we merge two branches, the changes in both the branches are combined together using their first common ancestor commit node. We represent it in such a way in diagram because a new commit node is created when we merge two branches which has two parents unlike a normal node which has a single parent.
 
 
 7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+-> Git's automatic merging doesnt resolve conflicts i.e. when changes are made to same section and thus it needs to be resolved manually. However the changes independent of each other are automatically merged by git which happens to be very tedious when done manually and may result in errors. 
