@@ -1,6 +1,6 @@
 1. When would you want to use a remote repository rather than keeping all your work
 local?
-->
+-> A remote repository is required when another developer is involved and you have to refer the work that he has done. Also if your local computer is not accessible and you want to make some changes to your project urgently, then at that time using remote repository might be the only feasible solution.
 
 
 2. Why might you want to always pull changes manually rather than having Git
