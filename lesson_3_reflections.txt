@@ -24,4 +24,5 @@ Branches are used whenever we want to add an experimental feature to our project
 
 
 6. When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
-->
+-> A separate branch should be created when we are working on an experimental feature and we dont know how it will turn out or it may also be used when more than one person is working on the project with each one working on a different feature.
+Making changes directly in the master branch is much more simpler than making a separate branch, however it may cause an error in the previously working version of the code if you add the experimental changes or changes made by another person prematurely in the master branch.
