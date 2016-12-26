@@ -16,11 +16,11 @@ Branches are used whenever we want to add an experimental feature to our project
 
 
 4. What is the benefit of having a copy of the last known state of the remote stored locally?
-->
+-> By having a copy of last known state of the the remote stored locally, it is easier to track how many commits, we are ahead of the remote branch since the last interaction with it offline. It also speeds up the process in determining whether the local and remote branches are in sync or not during a pull or fetch-merge operation and what type of merge should be performed.
 
 
 5. How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
-->
+-> 
 
 
 6. When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
