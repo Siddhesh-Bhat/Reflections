@@ -20,7 +20,7 @@ Branches are used whenever we want to add an experimental feature to our project
 
 
 5. How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
--> 
+-> Without git or github, you would have to manually check for changes made by other people and very strong communication is required to keep track of them. Also you would have to create backups periodically to avoid losing data. Using git and github is definitely easier than doing all the work manually.
 
 
 6. When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
